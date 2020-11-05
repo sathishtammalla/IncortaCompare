@@ -1,0 +1,10 @@
+docker container ls --all
+ 2727  docker cp /Users/stammall/Sathish/Projects/Incorta_Nifi/incorta_cluster_SCHEMA.sql 434f7e17342d:/schema_data.sql
+ 
+ 
+ docker cp /Users/stammall/Sathish/Projects/Incorta_Nifi/incorta_cluster_PROD_SCHEMA.sql 434f7e17342d:/schema_data.sql
+ docker cp /Users/stammall/Sathish/Projects/Incorta_Nifi/incorta_cluster_CERT_PROD_SCHEMA/incorta_cluster_PROD_SCHEMA.sql 434f7e17342d:/schema_prod_data.sql
+ mysql> source schema_prod_data.sql
+ 
+ 
+ 
